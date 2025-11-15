@@ -1,0 +1,353 @@
+[
+  {
+    "id": "exam-001",
+    "name": "Complete Blood Count (CBC)",
+    "category": "Basic",
+    "price": 45.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 95,
+    "tags": ["blood", "routine", "common"]
+  },
+  {
+    "id": "exam-002",
+    "name": "Basic Metabolic Panel",
+    "category": "Basic",
+    "price": 55.00,
+    "fastingRequired": true,
+    "resultTimeHours": 24,
+    "popularity": 90,
+    "tags": ["metabolic", "routine"]
+  },
+  {
+    "id": "exam-003",
+    "name": "Lipid Panel",
+    "category": "Basic",
+    "price": 60.00,
+    "fastingRequired": true,
+    "resultTimeHours": 48,
+    "popularity": 85,
+    "tags": ["cholesterol", "heart"]
+  },
+  {
+    "id": "exam-004",
+    "name": "Liver Function Test",
+    "category": "Basic",
+    "price": 70.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 80,
+    "tags": ["liver", "organ"]
+  },
+  {
+    "id": "exam-005",
+    "name": "Thyroid Stimulating Hormone (TSH)",
+    "category": "Basic",
+    "price": 50.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 75,
+    "tags": ["thyroid", "hormone"]
+  },
+  {
+    "id": "exam-006",
+    "name": "Hemoglobin A1C",
+    "category": "Basic",
+    "price": 65.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 70,
+    "tags": ["diabetes", "glucose"]
+  },
+  {
+    "id": "exam-007",
+    "name": "Vitamin D, 25-Hydroxy",
+    "category": "Basic",
+    "price": 75.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 65,
+    "tags": ["vitamin", "nutrition"]
+  },
+  {
+    "id": "exam-008",
+    "name": "C-Reactive Protein (CRP)",
+    "category": "Basic",
+    "price": 40.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 60,
+    "tags": ["inflammation", "marker"]
+  },
+  {
+    "id": "exam-009",
+    "name": "Iron Panel",
+    "category": "Basic",
+    "price": 55.00,
+    "fastingRequired": true,
+    "resultTimeHours": 24,
+    "popularity": 55,
+    "tags": ["iron", "anemia"]
+  },
+  {
+    "id": "exam-010",
+    "name": "B12 and Folate",
+    "category": "Basic",
+    "price": 80.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 50,
+    "tags": ["vitamin", "b12", "folate"]
+  },
+  {
+    "id": "exam-011",
+    "name": "Comprehensive Metabolic Panel",
+    "category": "Advanced",
+    "price": 120.00,
+    "fastingRequired": true,
+    "resultTimeHours": 24,
+    "popularity": 88,
+    "tags": ["metabolic", "comprehensive"]
+  },
+  {
+    "id": "exam-012",
+    "name": "Complete Thyroid Panel",
+    "category": "Advanced",
+    "price": 150.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 82,
+    "tags": ["thyroid", "hormone", "comprehensive"]
+  },
+  {
+    "id": "exam-013",
+    "name": "Hormone Panel for Women",
+    "category": "Advanced",
+    "price": 200.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 78,
+    "tags": ["hormone", "women", "reproductive"]
+  },
+  {
+    "id": "exam-014",
+    "name": "Hormone Panel for Men",
+    "category": "Advanced",
+    "price": 180.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 75,
+    "tags": ["hormone", "men", "testosterone"]
+  },
+  {
+    "id": "exam-015",
+    "name": "Cardiac Risk Panel",
+    "category": "Advanced",
+    "price": 160.00,
+    "fastingRequired": true,
+    "resultTimeHours": 48,
+    "popularity": 72,
+    "tags": ["cardiac", "heart", "risk"]
+  },
+  {
+    "id": "exam-016",
+    "name": "Inflammation Panel",
+    "category": "Advanced",
+    "price": 140.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 68,
+    "tags": ["inflammation", "markers"]
+  },
+  {
+    "id": "exam-017",
+    "name": "Nutritional Deficiency Panel",
+    "category": "Advanced",
+    "price": 220.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 65,
+    "tags": ["nutrition", "vitamins", "minerals"]
+  },
+  {
+    "id": "exam-018",
+    "name": "Autoimmune Panel",
+    "category": "Advanced",
+    "price": 300.00,
+    "fastingRequired": false,
+    "resultTimeHours": 96,
+    "popularity": 58,
+    "tags": ["autoimmune", "antibodies"]
+  },
+  {
+    "id": "exam-019",
+    "name": "Kidney Function Panel",
+    "category": "Advanced",
+    "price": 110.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 62,
+    "tags": ["kidney", "renal", "function"]
+  },
+  {
+    "id": "exam-020",
+    "name": "Diabetes Comprehensive Panel",
+    "category": "Advanced",
+    "price": 180.00,
+    "fastingRequired": true,
+    "resultTimeHours": 48,
+    "popularity": 70,
+    "tags": ["diabetes", "glucose", "comprehensive"]
+  },
+  {
+    "id": "exam-021",
+    "name": "Genetic Cancer Risk Panel",
+    "category": "Specialized",
+    "price": 500.00,
+    "fastingRequired": false,
+    "resultTimeHours": 168,
+    "popularity": 45,
+    "tags": ["genetic", "cancer", "risk"]
+  },
+  {
+    "id": "exam-022",
+    "name": "Food Allergy Panel",
+    "category": "Specialized",
+    "price": 250.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 52,
+    "tags": ["allergy", "food", "immunoglobulin"]
+  },
+  {
+    "id": "exam-023",
+    "name": "Environmental Toxin Panel",
+    "category": "Specialized",
+    "price": 400.00,
+    "fastingRequired": false,
+    "resultTimeHours": 120,
+    "popularity": 38,
+    "tags": ["toxin", "environmental", "heavy metals"]
+  },
+  {
+    "id": "exam-024",
+    "name": "Sexually Transmitted Infections Panel",
+    "category": "Specialized",
+    "price": 280.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 55,
+    "tags": ["sti", "infections", "std"]
+  },
+  {
+    "id": "exam-025",
+    "name": "Celiac Disease Panel",
+    "category": "Specialized",
+    "price": 200.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 48,
+    "tags": ["celiac", "gluten", "autoimmune"]
+  },
+  {
+    "id": "exam-026",
+    "name": "Lyme Disease Panel",
+    "category": "Specialized",
+    "price": 320.00,
+    "fastingRequired": false,
+    "resultTimeHours": 96,
+    "popularity": 42,
+    "tags": ["lyme", "tick", "infection"]
+  },
+  {
+    "id": "exam-027",
+    "name": "Hepatitis Panel",
+    "category": "Specialized",
+    "price": 240.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 50,
+    "tags": ["hepatitis", "liver", "viral"]
+  },
+  {
+    "id": "exam-028",
+    "name": "Rheumatoid Factor Panel",
+    "category": "Specialized",
+    "price": 180.00,
+    "fastingRequired": false,
+    "resultTimeHours": 72,
+    "popularity": 46,
+    "tags": ["rheumatoid", "arthritis", "autoimmune"]
+  },
+  {
+    "id": "exam-029",
+    "name": "Tumor Marker Panel",
+    "category": "Specialized",
+    "price": 350.00,
+    "fastingRequired": false,
+    "resultTimeHours": 96,
+    "popularity": 40,
+    "tags": ["tumor", "cancer", "markers"]
+  },
+  {
+    "id": "exam-030",
+    "name": "Comprehensive Wellness Panel",
+    "category": "Specialized",
+    "price": 450.00,
+    "fastingRequired": true,
+    "resultTimeHours": 120,
+    "popularity": 60,
+    "tags": ["wellness", "comprehensive", "preventive"]
+  },
+  {
+    "id": "exam-031",
+    "name": "Blood Type and Rh Factor",
+    "category": "Basic",
+    "price": 35.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 45,
+    "tags": ["blood type", "rh"]
+  },
+  {
+    "id": "exam-032",
+    "name": "Urinalysis",
+    "category": "Basic",
+    "price": 30.00,
+    "fastingRequired": false,
+    "resultTimeHours": 24,
+    "popularity": 40,
+    "tags": ["urine", "routine"]
+  },
+  {
+    "id": "exam-033",
+    "name": "Prostate Specific Antigen (PSA)",
+    "category": "Advanced",
+    "price": 90.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 56,
+    "tags": ["prostate", "cancer", "men"]
+  },
+  {
+    "id": "exam-034",
+    "name": "CA-125 (Ovarian Cancer Marker)",
+    "category": "Advanced",
+    "price": 95.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 54,
+    "tags": ["ovarian", "cancer", "women"]
+  },
+  {
+    "id": "exam-035",
+    "name": "Cortisol Level",
+    "category": "Advanced",
+    "price": 85.00,
+    "fastingRequired": false,
+    "resultTimeHours": 48,
+    "popularity": 58,
+    "tags": ["cortisol", "stress", "hormone"]
+  }
+]
+

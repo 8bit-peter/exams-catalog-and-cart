@@ -1,0 +1,25 @@
+{
+  "name": "exams-catalog-cart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.11.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.11.1",
+    "@vue/test-utils": "^2.4.5",
+    "sass": "^1.94.0",
+    "vitest": "^3.2.0"
+  }
+}
