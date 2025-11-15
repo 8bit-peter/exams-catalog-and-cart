@@ -5,12 +5,14 @@ A Nuxt 3 e-commerce application for browsing and purchasing blood exams with adv
 ## Features
 
 - **Catalog Page (`/`)**
+
   - Multi-criteria filtering (Category, Price Range, Fasting Required, Result Time)
   - Multiple sorting options (Price, Popularity, Result Time)
   - Visual badges for "Fasting Required" and "24h Results"
   - Responsive grid layout
 
 - **Shopping Cart (`/cart`)**
+
   - Add, remove, and update quantities
   - Bundle discount: 10% off any 3 exams from the 'Basic' category
   - Detailed checkout summary with discount breakdown
@@ -26,17 +28,19 @@ A Nuxt 3 e-commerce application for browsing and purchasing blood exams with adv
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -64,6 +68,7 @@ npm test
 ```
 
 The test suite includes:
+
 - Bundle discount calculation tests (5 test cases)
 - Cart operations tests (6 test cases)
 
@@ -102,12 +107,14 @@ The test suite includes:
 The bundle discount rule states: "Any 3 exams from the 'Basic' category get a 10% discount."
 
 Implementation details:
+
 - Discount applies to sets of 3 Basic category exams
 - Each set of 3 receives a 10% discount on those 3 items
 - Partial sets (e.g., 5 Basic exams) receive discount only on complete sets of 3
 - Non-Basic category exams are not eligible for this discount
 
 Example:
+
 - 3 Basic exams → 1 discount (10% off all 3)
 - 6 Basic exams → 2 discounts (10% off all 6)
 - 5 Basic exams → 1 discount (10% off 3, 2 at full price)
@@ -115,6 +122,7 @@ Example:
 ### SSR-Safe localStorage
 
 To prevent hydration mismatches:
+
 1. Cart state is initialized as empty on the server
 2. `hydrate()` method is called in `onMounted()` hook (client-only)
 3. All localStorage operations are guarded with `typeof window !== 'undefined'` checks
@@ -140,7 +148,7 @@ To prevent hydration mismatches:
 
 - **Framework**: Nuxt 3 with SSR
 - **State Management**: Pinia
-- **Styling**: Vanilla CSS with custom properties
+- **Styling**: Vanilla CSS with custom properties + SCSS inside components
 - **Testing**: Vitest
 - **TypeScript**: Full type safety
 
@@ -150,18 +158,3 @@ To prevent hydration mismatches:
 2. **Discount Calculation**: Discount is applied to the first N sets of 3 Basic exams (order doesn't affect total discount amount)
 3. **Cart Persistence**: Cart state persists across page refreshes using localStorage
 4. **Browser Support**: Modern browsers with ES6+ support and localStorage API
-
-## Future Enhancements
-
-- Add search functionality to the catalog
-- Implement user authentication
-- Add order history
-- Add exam details page
-- Implement payment processing
-- Add more discount rules
-- Add favorites/wishlist functionality
-
-## License
-
-This project is created for evaluation purposes.
-
